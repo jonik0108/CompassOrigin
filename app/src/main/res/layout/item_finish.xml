@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="top"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="name"
+                        android:textColor="#347aad"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/surname1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="surname"
+                        android:textColor="#347aad"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/number1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="number"
+                        android:textColor="#347aad"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/birth1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="birth"
+                        android:textColor="#347aad"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="subject"
+                        android:textColor="#347aad"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/numberteach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="number"
+                        android:textAlignment="center"
+                        android:textColor="#347aad"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/time1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00:00"
+                        android:textAlignment="center"
+
+                        android:textColor="#347aad"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+                        android:id="@+id/week1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="week"
+                        android:textAlignment="center"
+
+                        android:textColor="#347aad"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        />
+                    <Button
+                        android:id="@+id/sendsms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="send"
+                        android:backgroundTint="#347aad"/>
+                    <Button
+                        android:id="@+id/delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="delete"
+                        android:backgroundTint="#347aad"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

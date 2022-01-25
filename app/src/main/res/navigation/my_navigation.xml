@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/start2">
+    <fragment
+        android:id="@+id/start2"
+        android:name="com.abbasov.compass.fragment.Start"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+    <fragment
+        android:id="@+id/teachers"
+        android:name="com.abbasov.compass.fragment.Teachers"
+        android:label="fragment_teachers"
+        tools:layout="@layout/fragment_teachers" />
+    <fragment
+        android:id="@+id/daysofWeek"
+        android:name="com.abbasov.compass.fragment.DaysofWeek"
+        android:label="fragment_daysof_week"
+        tools:layout="@layout/fragment_daysof_week" />
+    <fragment
+        android:id="@+id/addPeople"
+        android:name="com.abbasov.compass.fragment.AddPeople"
+        android:label="fragment_add_people"
+        tools:layout="@layout/fragment_add_people" />
+    <fragment
+        android:id="@+id/list"
+        android:name="com.abbasov.compass.fragment.List"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/timelist"
+        android:name="com.abbasov.compass.fragment.FinishList"
+        android:label="fragment_timelist"
+        tools:layout="@layout/fragment_timelist" />
+    <fragment
+        android:id="@+id/allPerson"
+        android:name="com.abbasov.compass.AllPerson"
+        android:label="fragment_all_person"
+        tools:layout="@layout/fragment_all_person" />
+    <fragment
+        android:id="@+id/timeofGroup"
+        android:name="com.abbasov.compass.TimeofGroup"
+        android:label="fragment_timeof_group"
+        tools:layout="@layout/fragment_timeof_group" />
+    <fragment
+        android:id="@+id/smsmass"
+        android:name="com.abbasov.compass.Smsmass"
+        android:label="fragment_smsmass"
+        tools:layout="@layout/fragment_smsmass" />
+    <fragment
+        android:id="@+id/birth2"
+        android:name="com.abbasov.compass.Birth"
+        android:label="fragment_birth"
+        tools:layout="@layout/fragment_birth" />
+    <fragment
+        android:id="@+id/addFirebase"
+        android:name="com.abbasov.compass.AddFirebase"
+        android:label="fragment_add_firebase"
+        tools:layout="@layout/fragment_add_firebase" />
+
+</navigation>

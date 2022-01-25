@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9f2f7"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/card"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/neumorphCardView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448"
+        app:neumorph_backgroundColor="#e9f2f7"
+        app:neumorph_shadowColorDark="#cddcea"
+        app:neumorph_shadowColorLight="#f0f5f9"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat">
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:neumorph_backgroundColor="#e9f2f7"
+        app:neumorph_shadowColorDark="#cddcea"
+        app:neumorph_shadowColorLight="#f0f5f9"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat">
+
+    </soup.neumorphism.NeumorphCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

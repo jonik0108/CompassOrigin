@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.List"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:backgroundTint="#DEF7FE"
+                android:text="refresh"
+                android:textColor="@color/black" />
+            <Button
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAST DAY"/>
+            <Button
+                android:id="@+id/data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOW DAY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сколько раз было отправлено" />
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <EditText
+                android:id="@+id/hw"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="h/w"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/xulq"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="xulq"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/faol"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="faol"
+                android:inputType="number" />
+
+
+            <TextView
+                android:id="@+id/txtuz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#DEF7FE"
+                android:text="SENd"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtnumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/txtru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sendru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#DEF7FE"
+                android:text="SENd"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txtnumbru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

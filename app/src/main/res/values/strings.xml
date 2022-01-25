@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="teachers">
+        <item>Mr.Merle</item>
+        <item>Mr.Justin</item>
+        <item>Mr.James</item>
+        <item>Mr.Henry</item>
+        <item>Ms.Dori</item>
+        <item>Ms.Janona</item>
+        <item>Ms.Sabina</item>
+        <item>Ms.Diyora</item>
+        <item>Mr.Kevin</item>
+    </string-array>
+    <string-array name="week">
+        <item>Пн/Ср/Пт</item>
+        <item>Вт/Чт/Сб</item>
+        <item>Пн-Вт-Ср-Чт-Пт</item>
+
+    </string-array>
+    <string-array name="subject">
+        <item>Rus tili (Русский язык)</item>
+        <item>English</item>
+        <item>mental arifmetika (Ментальная арифметика)</item>
+        <item>ПОЧЕМУЧКА</item>
+        <item>Химия-Биология</item>
+
+    </string-array>
+    <string-array name="numbertechers">
+        <item>Музаффар Хомидов:        97 966 47 77</item>
+        <item>Жасур Обиджанов:         99 051 12 36</item>
+        <item>Ойбек Мирхужаев:         93 734 78 02</item>
+        <item>Хайдарбек Таваккалжонов: 90 300 10 39</item>
+        <item>Диера Нишонова:          99 921 29 09</item>
+        <item>Жанона Хомидова:         99 401 03 33</item>
+        <item>Сабина Мумеджанова:      90 562 58 08</item>
+        <item>Диера Салохиддинова:     90 277 77 05</item>
+        <item>Диёрбек Арипов:          99 911 24 03</item>
+
+    </string-array>
+
+</resources>

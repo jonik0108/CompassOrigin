@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "144991605255",
+    "firebase_url": "https://compass-55e22-default-rtdb.firebaseio.com",
+    "project_id": "compass-55e22",
+    "storage_bucket": "compass-55e22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144991605255:android:852c37b8ab9c899c5690a2",
+        "android_client_info": {
+          "package_name": "com.abbasov.compass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144991605255-dni1a0fi80utnfdi8icfmu2dnc9undds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD75r4keniEQVhokPRfdIReSMrwbOd5yqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144991605255-dni1a0fi80utnfdi8icfmu2dnc9undds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
